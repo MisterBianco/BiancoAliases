@@ -17,8 +17,6 @@
 		alias .3="cd ../../../"
 		alias winsize="xwininfo"
 		alias mon="sudo airmon-ng start"
-		alias ssh2school="ssh 'jdingman@ssh.cs.dixie.edu'"
-		alias ssh2assembly="ssh jdingman@leghorn.cs.dixie.edu"
         #-----------------------------------------------
 
 
