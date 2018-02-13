@@ -16,7 +16,10 @@
 		alias ...="cd ../../"
 		alias .3="cd ../../../"
 		alias winsize="xwininfo"
-	#-----------------------------------------------
+		alias mon="sudo airmon-ng start"
+		alias ssh2school="ssh 'jdingman@ssh.cs.dixie.edu'"
+		alias ssh2assembly="ssh jdingman@leghorn.cs.dixie.edu"
+        #-----------------------------------------------
 
 
 	#-----------------------------------------------
@@ -70,6 +73,7 @@
 		alias dup="sudo apt dist-upgrade -y"
 		alias aure="sudo apt autoremove -y"
 		alias update="upd && upg && dup && aure"
+
 	#-----------------------------------------------
 
 
@@ -85,6 +89,7 @@
 	# Install commands
 	#-----------------------------------------------
 		alias install="sudo apt install"
+		alias search="sudo apt-cache search"
 		alias fixdpkg="sudo dpkg --configure -a"
 	#-----------------------------------------------
 
@@ -127,4 +132,8 @@
 
 
 
-
+	#------------------------------------------------
+	# System service commands
+	#------------------------------------------------
+		alias cups="/etc/init.d/cups start"
+	#------------------------------------------------
