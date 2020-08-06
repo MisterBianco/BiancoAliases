@@ -72,7 +72,7 @@
 		alias dup="sudo apt dist-upgrade -y"
 		alias aure="sudo apt autoremove -y"
 		alias update="upd && upg && dup && aure"
-
+		alias yay="yay -Sy"
 	#-----------------------------------------------
 
 
